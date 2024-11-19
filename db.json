@@ -1,0 +1,84 @@
+{
+  "policyholders": [
+    {
+      "code": "1",
+      "name": "保戶1",
+      "registration_date": "2021-01-01T00:00:00Z",
+      "introducer_code": null,
+      "l": [
+        {
+          "code": "2",
+          "name": "保戶2",
+          "registration_date": "2021-02-01T00:00:00Z",
+          "introducer_code": "1",
+          "l": [
+            {
+              "code": "6",
+              "name": "保戶6",
+              "registration_date": "2021-06-01T00:00:00Z",
+              "introducer_code": "2",
+              "l": [
+                {
+                  "code": "10",
+                  "name": "保戶10",
+                  "registration_date": "2021-08-01T00:00:00Z",
+                  "introducer_code": "6",
+                  "l": [],
+                  "r": []
+                }
+              ],
+              "r": []
+            }
+          ],
+          "r": [
+            {
+              "code": "4",
+              "name": "保戶4",
+              "registration_date": "2021-04-01T00:00:00Z",
+              "introducer_code": "2",
+              "l": [],
+              "r": [
+                {
+                  "code": "3",
+                  "name": "保戶3",
+                  "registration_date": "2021-03-01T00:00:00Z",
+                  "introducer_code": "1",
+                  "l": [],
+                  "r": [
+                    {
+                      "code": "11",
+                      "name": "保戶11",
+                      "registration_date": "2021-09-01T00:00:00Z",
+                      "introducer_code": "3",
+                      "l": [],
+                      "r": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "r": [
+        {
+          "code": "5",
+          "name": "保戶5",
+          "registration_date": "2021-05-01T00:00:00Z",
+          "introducer_code": "1",
+          "l": [],
+          "r": [
+            {
+              "code": "12",
+              "name": "保戶12",
+              "registration_date": "2021-10-01T00:00:00Z",
+              "introducer_code": "5",
+              "l": [],
+              "r": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
